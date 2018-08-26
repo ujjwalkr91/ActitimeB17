@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test 1]]>
+    </line>
+    <line>
+      <![CDATA[Test 2]]>
+    </line>
+    <line>
+      <![CDATA[Test 5]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-08-26T11:56:54Z" name="Suite" finished-at="2018-08-26T11:56:54Z" duration-ms="195">
+    <groups>
+      <group name="smoke">
+        <method signature="RaviTest1.testFive()[pri:5, instance:RaviSelenium.RaviTest1@383bfa16]" name="testFive" class="RaviSelenium.RaviTest1"/>
+        <method signature="RaviTest1.testOne()[pri:1, instance:RaviSelenium.RaviTest1@383bfa16]" name="testOne" class="RaviSelenium.RaviTest1"/>
+        <method signature="RaviTest1.testTwo()[pri:2, instance:RaviSelenium.RaviTest1@383bfa16]" name="testTwo" class="RaviSelenium.RaviTest1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2018-08-26T11:56:54Z" name="Test" finished-at="2018-08-26T11:56:54Z" duration-ms="195">
+      <class name="RaviSelenium.RaviTest1">
+        <test-method signature="testOne()[pri:1, instance:RaviSelenium.RaviTest1@383bfa16]" started-at="2018-08-26T11:56:54Z" name="testOne" finished-at="2018-08-26T11:56:54Z" duration-ms="44" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method signature="testTwo()[pri:2, instance:RaviSelenium.RaviTest1@383bfa16]" started-at="2018-08-26T11:56:54Z" name="testTwo" finished-at="2018-08-26T11:56:54Z" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method signature="testFive()[pri:5, instance:RaviSelenium.RaviTest1@383bfa16]" started-at="2018-08-26T11:56:54Z" name="testFive" finished-at="2018-08-26T11:56:54Z" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test 5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFive -->
+      </class> <!-- RaviSelenium.RaviTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
