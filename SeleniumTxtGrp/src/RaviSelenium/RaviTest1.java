@@ -20,7 +20,7 @@ public class RaviTest1 {
 	public void testFour() {
 		Reporter.log("Test 4",true);
 	}
-	@Test(priority=5,groups="smoke")
+	@Test(priority=5,groups="regression")
 	public void testFive() {
 		Reporter.log("Test 5",true);
 	}
