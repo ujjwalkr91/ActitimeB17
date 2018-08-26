@@ -8,7 +8,7 @@ import POM.Link1PO;
 import library.BaseTest;
 
 public class TestScript1 extends BaseTest{
-	@Test
+	@Test(priority=1)
 	public void testGoogleLink(){
 		try {
 		Link1PO link1po =new Link1PO(driver);
